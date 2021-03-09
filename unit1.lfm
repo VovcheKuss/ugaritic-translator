@@ -1,0 +1,686 @@
+object Form1: TForm1
+  Left = 2085
+  Height = 690
+  Top = 246
+  Width = 360
+  AlphaBlend = True
+  AlphaBlendValue = 245
+  Anchors = []
+  Caption = 'Угаритянсько-Англійський хтось'
+  ClientHeight = 690
+  ClientWidth = 360
+  Color = clWindowText
+  Font.Color = clWhite
+  Position = poDesktopCenter
+  LCLVersion = '2.0.10.0'
+  object Button3: TButton
+    Left = 58
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎀a'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button4: TButton
+    Left = 109
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎁b'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button5: TButton
+    Left = 157
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎏c'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button6: TButton
+    Left = 207
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎄d'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button6Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button7: TButton
+    Left = 255
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎛e'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button7Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button8: TButton
+    Left = 304
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎉f'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button8Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button9: TButton
+    Left = 8
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎙g'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button10: TButton
+    Left = 109
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎛i'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button10Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button11: TButton
+    Left = 157
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎘j'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button11Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button12: TButton
+    Left = 207
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎋k'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button12Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button13: TButton
+    Left = 255
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎍l'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button13Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button14: TButton
+    Left = 304
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎎m'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button14Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button15: TButton
+    Left = 8
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎐n'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button15Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button16: TButton
+    Left = 58
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎓o'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button16Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button17: TButton
+    Left = 58
+    Height = 34
+    Top = 569
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎅h'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button17Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Button18: TButton
+    Left = 107
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎔p'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button18Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button19: TButton
+    Left = 207
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎗r'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button19Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Button20: TButton
+    Left = 255
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎒 s'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button20Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Button21: TButton
+    Left = 304
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎚t'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button21Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button22: TButton
+    Left = 8
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎜u'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button22Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button23: TButton
+    Left = 157
+    Height = 34
+    Top = 610
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎖q'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button23Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button24: TButton
+    Left = 157
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎌x'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button24Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Button25: TButton
+    Left = 207
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎆w'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button25Click
+    ParentFont = False
+    TabOrder = 22
+  end
+  object Button26: TButton
+    Left = 109
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎊y'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button26Click
+    ParentFont = False
+    TabOrder = 23
+  end
+  object Button27: TButton
+    Left = 8
+    Height = 28
+    Hint = 'Добавити Англ і Угаритянські в поле внизу'
+    Top = 216
+    Width = 146
+    BorderSpacing.Around = 2
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Англ+Угар ↓'
+    Color = clBtnText
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button27Click
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 24
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 262
+    Top = 256
+    Width = 342
+    BorderSpacing.Around = 2
+    BorderSpacing.InnerBorder = 2
+    Color = 3487029
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    ParentFont = False
+    TabOrder = 25
+  end
+  object Button1: TButton
+    Left = 255
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎑z'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 26
+  end
+  object Button2: TButton
+    Left = 58
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎆v'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 27
+  end
+  object Button28: TButton
+    Left = 304
+    Height = 34
+    Top = 650
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '𐎟-'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button28Click
+    ParentFont = False
+    TabOrder = 28
+  end
+  object Button29: TButton
+    Left = 160
+    Height = 28
+    Top = 216
+    Width = 190
+    BorderSpacing.Around = 2
+    BorderSpacing.InnerBorder = 2
+    Caption = 'очистити всі поля'
+    Color = 3421236
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button29Click
+    ParentFont = False
+    TabOrder = 29
+  end
+  object Button30: TButton
+    Left = 322
+    Height = 40
+    Top = 8
+    Width = 26
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Around = 2
+    BorderSpacing.InnerBorder = 2
+    Caption = 'x'
+    Color = 2434341
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button30Click
+    ParentFont = False
+    TabOrder = 30
+  end
+  object Button31: TButton
+    Left = 322
+    Height = 40
+    Top = 112
+    Width = 26
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Around = 2
+    BorderSpacing.InnerBorder = 2
+    Caption = 'x'
+    Color = 2434341
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button31Click
+    ParentFont = False
+    TabOrder = 31
+  end
+  object Button32: TButton
+    Left = 9
+    Height = 34
+    Top = 528
+    Width = 42
+    Anchors = [akLeft, akRight, akBottom]
+    Caption = '↺'
+    Color = 2565927
+    Constraints.MaxHeight = 34
+    Constraints.MaxWidth = 42
+    Constraints.MinHeight = 34
+    Constraints.MinWidth = 42
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnClick = Button32Click
+    ParentFont = False
+    TabOrder = 32
+  end
+  object Memo2: TMemo
+    Left = 9
+    Height = 97
+    Top = 8
+    Width = 306
+    Color = 3487029
+    Font.CharSet = GB2312_CHARSET
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnEditingDone = Memo2EditingDone
+    ParentFont = False
+    TabOrder = 33
+  end
+  object Memo3: TMemo
+    Left = 9
+    Height = 96
+    Top = 112
+    Width = 306
+    Color = 3487029
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    OnEditingDone = Memo3EditingDone
+    ParentFont = False
+    TabOrder = 34
+  end
+  object Label1: TLabel
+    Left = 320
+    Height = 41
+    Top = 56
+    Width = 40
+    Anchors = [akTop, akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Eng'
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 320
+    Height = 33
+    Top = 160
+    Width = 38
+    Anchors = [akTop, akLeft, akBottom]
+    AutoSize = False
+    Caption = 'Ugr'
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+end
